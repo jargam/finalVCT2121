@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&family=Klee+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: "Klee One", cursive;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.header,
+.one,
+.two,
+.three,
+footer {
+  font-family: "Hi Melody", cursive;
+}
+
+.header {
+  grid-column: 1 / 10;
+  grid-row: 1 / 2;
+  background: #29d9d9;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header a:hover {
+  color: #000;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one a {
+  color: #f1b440;
+  transition: color 200ms ease-out;
+}
+
+.one a:hover {
+  color: #fff;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two a {
+  color: #f2e235;
+  transition: color 200ms ease-out;
+}
+
+.two a:hover {
+  color: #fff;
+}
+
+.two .msg {
+  position: absolute;
+  margin-top: -12.5em;
+  font-size: 36px;
+}
+
+.three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.three a {
+  color: #04adc0;
+  transition: color 200ms ease-out;
+}
+
+.three a:hover {
+  color: #fff;
+}
+
+.b1 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.downarrow {
+  width: 4em;
+  height: 4em;
+}
+
+#newsicon {
+  height: 18em;
+  width: 18em;
+}
+
+#sunicon {
+  height: 18em;
+  width: 18em;
+}
+
+#eventicon {
+  height: 18em;
+  width: 18em;
+}
+
+.news-photo {
+  height: 75%;
+  width: 85%;
+}
+
+div.news-one h1 {
+  font-size: 54px;
+}
+
+div.news-one p {
+  font-size: 20px;
+}
+
+.event-photo {
+  width: 100%;
+}
+
+h4.text-start {
+  margin-left: -1%;
+}
+
+article {
+  margin: 5px;
+  border: 1px solid #eee;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#blocks {
+  margin: 20px;
+}
+
+article {
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+article h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.resize {
+  display: none;
+}
+
+main {
+  height: 20em;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #29d9d9;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  margin-left: 3em;
+  font-size: 28px;
+  color: #000;
+  transition: color 300ms ease-out;
+}
+
+footer p:hover {
+  color: #fff;
+}
+
+footer .social {
+  margin-left: auto;
+  margin-right: 3em;
+}
+
+footer .social a {
+  padding: 0.75em;
+}
+
+footer .social a .social-icons {
+  height: 50px;
+  fill: #000;
+  transition: fill 300ms ease-out;
+}
+
+footer .social a .social-icons:hover {
+  fill: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  #block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  article {
+    flex: 0 1 48%;
+    transition: flex-basis 0.5s linear;
+  }
+  article.stacked {
+    flex: 0 1 100%;
+  }
+  .resize {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #block2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  article {
+    flex: 1 1 90%;
+    transition: flex-basis 0.5s linear;
+  }
+  article.stacked {
+    flex: 1 1 90%;
+  }
+  .resize {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social svg {
+    height: 2em;
+    width: 2em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

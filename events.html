@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VCT 2121 Final</title>
+    <link href="./sass/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      footer p {
+        margin-top: 0.6em;
+      }
+      .content {
+        margin-top: 20px;
+      }
+      .msg {
+        margin-top: 1.75em;
+      }
+      .img-fluid {
+        opacity: 0.85;
+        transition: all 200ms linear;
+      }
+      .img-fluid:hover {
+        opacity: 1;
+      }
+      .one,
+      .two,
+      .three {
+        border: 2px solid #fff;
+        border-radius: 2em;
+        padding: 1em;
+        margin: 0.5em;
+      }
+      #content-wrapper {
+        padding: 0 2em;
+      }
+      #shadow {
+        opacity: 0.4;
+      }
+      #sunicon {
+        opacity: 0.4;
+      }
+      #newsicon {
+        opacity: 0.4;
+      }
+      .event-page 
+      a:hover {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <div class="header bg-info bg-gradient">
+        <a href="index.html">Neighborhood</a>
+      </div>
+      <div class="msg">Check out events going on near you!</div>
+      <!-- Menu -->
+
+      <section class="container-fluid content">
+        <!-- <section class="row"> -->
+        <section class="row" id="content-wrapper">
+          <div class="col-md-4">
+            <section class="one">
+              <a href="news.html">
+                <img
+                  src="./images/newspaper.svg"
+                  alt="newspaper icon"
+                  id="newsicon"
+                  class="img-fluid"
+                />
+                <b class="b1" style="opacity: 0.4">News</b></a
+              >
+            </section>
+          </div>
+
+          <div class="col-md-4">
+            <!-- <div class="msg">Hey Neighbor!</div> -->
+            <section class="two">
+              <a href="weather.html">
+                <img
+                  src="./images/weather.svg"
+                  alt="sun icon"
+                  id="sunicon"
+                  class="img-fluid"
+                />
+                <b class="b1" style="opacity: 0.4">Weather</b></a
+              >
+            </section>
+          </div>
+
+          <div class="col-md-4">
+            <section class="three">
+              <a href="events.html">
+                <img
+                  src="./images/event.svg"
+                  alt="event icon"
+                  id="eventicon"
+                  class="img-fluid" />
+                <b class="b1">Events</b
+                ><img
+                  style="height: 1.5em; width: 1.5em"
+                  src="./images/chevron-down-solid1.svg"
+              /></a>
+            </section>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <!-- Events -->
+    <div class="wrapper pt-5 event-page">
+    
+<p class="pb-4">Events</p>
+      <section id="block2">
+        <article class="rounded bg-info">
+          <div class="p-1">
+            <h1 style="opacity: .8;" class="text-white p-1 pb-2 mb-4 rounded bg-dark">
+              Memorial Weekend Bike Race
+            </h1>
+            <div class="rounded">
+              <div style="background: #3c3c44;" class="rounded">
+                <div>
+                <h4 class="text-white p-1">
+                  Saturday, May 28th, 2022<br />10:00 am
+                </h4>
+              </div>
+            <img
+              class="rounded event-photo pb-1"
+              src="./images/events/7bcc7d88-3bfe-4705-87fb-22e26a75653b-MJS_bikerace_17_p_3_mjs_news_mjd.jpg_memparade.jpeg"
+              alt="photo"
+            />
+            <div class="p-1 bg-bl">
+              <h4 class="text-white pb-3  mb-1 p-1"><a class="text-info" href="https://goo.gl/maps/47dbtBaHVH2rNsny8" target="_blank"><i>
+                Lowell Park</i><br />201 Water St N,<br /> Stillwater, MN</a>
+              </h4>
+            </div>
+              </div>
+         
+          </div>
+      <div class="rounded" style="background: #3c3c44;">
+            <p class="rounded mt-1 mt-2 text-white p-3 text-start">
+              Gear up bikers! We have our 73rd annual Stillwater Memorial Weekend Bike
+              Race. We will start the festivities downtown Stillwater at Lowell Park.
+              <p class="pb-3 bg-dark rounded"> *Bring the family, and make sure you register
+              <a href="#">Here</a>.*</p>
+            </p>
+          </div>
+          </div>
+        </article>
+        <article class="rounded bg-info">
+          <div>
+            <h1 style="opacity: .8;" class="text-white bg-dark mt-1 p-1 pb-2 mb-4 rounded">
+         Armstrong High School Graduation
+            </h1>
+            <div style="background: #3c3c44;" class="rounded">
+              <div>
+                <h4 class="text-white p-1 pb-3">
+                  Friday June 3rd, 2022 <br />4:30 pm
+                </h4>
+              </div>
+            <img
+              class="rounded p-1 event-photo"
+              src="./images/events/34af2191-3ac8-4b97-8631-bbeb6425d04e_1140x641.jpeg"
+              alt="photo"
+            />
+            <div class="p-1">
+              <h4 class="text-white p-1 mb-2 pb-3"><a class="text-info" href="https://goo.gl/maps/jnimCfUeC3FN7YcdA" target="_blank"><i>
+                Armstrong High</i><br />10635 36th Ave N, <br />Plymouth, MN</a>
+              </h4>
+            </div>
+           </div>
+          <div style="background: #3c3c44;" class="rounded">
+            <p class="p-3 mt-2 text-start">
+              Congrats graduates! Class of 2022 will be graduating on Friday, June 3rd, 2022. Please RSVP <a href="#">Here</a> if you plan on attending. See you there!
+              <p class="text-danger pb-3 bg-dark rounded">*Please limit 5 guests per graduate due to limit capacity*</p>
+             <!-- Congrats graduates! Class of 2022 will be graduating on Friday, June 3rd, 2022. Please RSVP <a href="#">Here</a> if you plan on attending. Virtaul stream: <a href="#">Zoom Link</a>.<p class="text-danger pb-3 bg-dark rounded">*Please limit 5 guests per graduate due to limit capacity*</p> -->
+            </p>
+          </div>
+          </div>
+        </article>
+        <article class="rounded bg-info">
+          <div>
+            <h1 class="text-white bg-dark mt-1 p-1 pb-2 mb-4 rounded" style="opacity: .8;">
+              Plain <br />Old<br /> Jane
+            </h1>
+            <div style="background: #3c3c44;" class="rounded">
+              <div>
+                <h4 class="text-white p-1 pb-2">
+                  Sunday June 5th, 2022<br />Show:7:30pm
+                </h4>
+              </div>
+            <img
+              class="rounded mb-1 pb-2 p-1 event-photo"
+              src="./images/events/LYLB-1925.gif"
+              alt="photo"
+            />
+            <div class="p-1">
+              <h4 class="text-white p-1 pb-2"><a class="text-info" href="https://g.page/TargetCenterMN?share" target="_blank"><i>
+                Target Center</i><br />600 N 1st Ave, <br />Minneapolis, MN</a>
+              </h4>
+            </div>
+           </div>
+          <div class="rounded" style="background: #3c3c44;">
+            <p class="p-3 mt-2 text-start">
+              Back for their summer tour! Plain old Janes are back in Minnesota this June. Performing such hits as <i>Smashing Mirrors</i> and <i>Winter Tornado,</i> this will be a great night for you to remember. Tickets selling fast!
+              <p class="pb-3 bg-dark rounded"> *Click <a href="#">Here</a> for Ticketmaster before it sells out!*</p>
+            </p>
+      
+            </p>
+          </div>
+          </div>
+        </article>
+        <article class="rounded bg-info">
+          <div>
+            <h1 class="text-white bg-dark mt-1 p-1 pb-2 mb-4 rounded" style="opacity: .8;">
+              Annual <br />Centennial <br /> Fireworks
+            </h1>
+            <div style="background: #3c3c44;" class="rounded ">
+              <div>
+                <h4 class="text-white p-1 pb-2">
+                  Monday, July 4th, 2022<br />Show:10:00pm
+                </h4>
+              </div>
+            <img
+              class="rounded mb-1 pb-2 p-1 event-photo"
+              src="./images/events/p05lqc4f.jpeg"
+              alt="photo"
+            />
+            <div class="p-1">
+              <h4 class="text-white p-1 pb-2"><a class="text-info" href="https://goo.gl/maps/uBt9JEPw6YBoEmej6" target="_blank"><i>Stone Arch Bridge</i><br />100 Portland Ave, <br />Minneapolis, MN</a>
+              </h4>
+            </div>
+           </div>
+          <div class="rounded" style="background: #3c3c44;">
+            <p class="p-3 mt-2 text-start rounded" style="background: #3c3c44;">
+              Fourth of July isn't complete without its annual Centennial Fireworks show! This event is always a hit among families and Twin City locals. Enjoy fresh food markets, vendors, and of course, fireworks!
+              <p class="text-danger pb-3 rounded bg-dark">
+              *Show starts at 10pm sharp!*
+            </p>
+      
+            </p>
+          </div>
+          </div>
+        </article>
+       
+      </section>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+<!-- Footer -->
+    <footer class="bg-info bg-gradient">
+      <p>Neighborhood &copy; 2022</p>
+
+      <div class="social">
+        <a href="#">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="facebook"
+            class="svg-inline--fa fa-facebook fa-w-16 social-icons"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+            ></path>
+          </svg>
+        </a>
+
+        <a href="#">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="twitter"
+            class="svg-inline--fa fa-twitter fa-w-16 social-icons"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="instagram"
+            class="svg-inline--fa fa-instagram fa-w-14 social-icons"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
